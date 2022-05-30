@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up report and test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting is done : Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Test is above to end]]>
+    </line>
+    <line>
+      <![CDATA[Test complited >> Reports generated]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application up and running]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10795" started-at="2022-05-29T14:11:55 PDT" finished-at="2022-05-29T14:12:06 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10795" started-at="2022-05-29T14:11:55 PDT" finished-at="2022-05-29T14:12:06 PDT">
+      <class name="com.wordpress.Testcases.VerifyValidLogin">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.wordpress.Testcases.VerifyValidLogin@32a068d1]" name="setUpSuite" is-config="true" duration-ms="1380" started-at="2022-05-29T14:11:54 PDT" finished-at="2022-05-29T14:11:55 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up report and test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting is done : Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.Testcases.VerifyValidLogin@32a068d1]" name="setup" is-config="true" duration-ms="4298" started-at="2022-05-29T14:11:55 PDT" finished-at="2022-05-29T14:11:59 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkValidUser()[pri:1, instance:com.wordpress.Testcases.VerifyValidLogin@32a068d1]" name="checkValidUser" duration-ms="4966" started-at="2022-05-29T14:11:59 PDT" finished-at="2022-05-29T14:12:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidUser -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.wordpress.Testcases.VerifyValidLogin@32a068d1]" name="tearDownMethod" is-config="true" duration-ms="1251" started-at="2022-05-29T14:12:04 PDT" finished-at="2022-05-29T14:12:06 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkValidUser status=SUCCESS method=VerifyValidLogin.checkValidUser()[pri:1, instance:com.wordpress.Testcases.VerifyValidLogin@32a068d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is above to end]]>
+            </line>
+            <line>
+              <![CDATA[Test complited >> Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wordpress.Testcases.VerifyValidLogin@32a068d1]" name="tearDown" is-config="true" duration-ms="203" started-at="2022-05-29T14:12:06 PDT" finished-at="2022-05-29T14:12:06 PDT">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wordpress.Testcases.VerifyValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
